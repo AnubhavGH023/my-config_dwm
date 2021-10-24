@@ -13,10 +13,15 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[ ]          = { "Noto Sans Mono:size=11" };
 static const char dmenufont[]       = "monospace:size=10";
+//background color - top bar
 static const char col_gray1[]       = "#121111";
+//inactive window border color
 static const char col_gray2[]       = "#444444";
+//font color
 static const char col_gray3[]       = "#bbbbbb";
+//current tag and current window font color
 static const char col_gray4[]       = "#eeeeee";
+//Tor bar second color and active window border color
 static const char col_cyan[]        = "#fc9c1e";
 static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
